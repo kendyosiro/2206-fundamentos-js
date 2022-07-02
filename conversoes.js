@@ -18,6 +18,7 @@ console.log(numero == numeroString);
 //ao tentar somar os valores, concatena as strings
 console.log(numero + numeroString);
 
+//conversão explícita
 //uma maneira de impedir que isso ocorra
 //é fazer conversão explícita
 //Number converte a string em número, permitindo a soma
@@ -37,4 +38,3 @@ console.log(numero + Number(numero2)); //resultado NaN
 
 //String()
 
-//conversão explícita
